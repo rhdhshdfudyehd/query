@@ -539,6 +539,6 @@
 		enableMasonry();
 	});
 
-	$('.btn-tg').attr('href', 'https://t.me/ploqs');
+	$('.btn-tg').attr('href', 'https://t.me/artiqga');
 	$('.btn-wx').hide();//attr('href', 'weixin://dl/');
 })(window.jQuery);
