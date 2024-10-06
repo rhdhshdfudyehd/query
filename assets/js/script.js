@@ -541,4 +541,11 @@
 
 	$('.btn-tg').attr('href', 'https://t.me/artiqga');
 	$('.btn-wx').show();
+
+	var clipboard = new ClipboardJS('.btn-wx');
+	clipboard.on('success', function(e) {
+		$('#message').toast({ delay: 3000 });
+		$('#message').toast('show');
+	    e.clearSelection();
+	});
 })(window.jQuery);
