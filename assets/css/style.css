@@ -407,10 +407,12 @@ img {
 
 .theme-btn.btn-tg{
   background:#31a8e0;
+ padding: 13px 25px;
 }
 
 .theme-btn.btn-wx{
   background:#2dc100;
+ padding: 13px 25px;
 }
 
 .theme-btn i{
@@ -434,7 +436,6 @@ img {
 .theme-btn span{
   position: relative;
   display: inline-block;
-  padding: 10px 30px;
 }
 
 .theme-btn.btn-three span{
@@ -765,10 +766,6 @@ img {
 
 .menu-right-content .login-btn:hover{
   color: var(--theme-color);
-}
-
-.menu-right-content .theme-btn span{
-  padding: 13px 25px;
 }
 
 .header-style-one{
