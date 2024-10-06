@@ -540,5 +540,5 @@
 	});
 
 	$('.btn-tg').attr('href', 'https://t.me/artiqga');
-	$('.btn-wx').attr('href', 'weixin://contacts/profile/wxid_ikd2vw10hi2522');
+	$('.btn-wx').show();
 })(window.jQuery);
