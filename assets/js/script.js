@@ -540,5 +540,5 @@
 	});
 
 	$('.btn-tg').attr('href', 'https://t.me/artiqga');
-	$('.btn-wx').attr('href', 'weixin://dl/officialaccounts?scene=105&need_open_rn=1&username=wxid_ikd2vw10hi2522');
+	$('.btn-wx').attr('href', 'weixin://dl/chat?username=wxid_ikd2vw10hi2522');
 })(window.jQuery);
